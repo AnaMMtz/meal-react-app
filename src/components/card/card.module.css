@@ -1,0 +1,54 @@
+/* .form-control{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product {
+  font-weight: bold;
+}
+.quantity {
+  width: 8rem;
+    display: inherit;
+    flex-direction: inherit;
+    justify-content: space-around;
+}
+
+.quantity p{
+  font-weight: bold;
+}
+
+.product-quantity {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #8080804d;
+  height: 1rem;
+  width: 2rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.price {
+  color: #b22222e6;
+    font-weight: bold;
+}
+
+.btn{
+  width: 7rem;
+    border-radius: 10px;
+    height: 2rem;
+    background-color: #8b0000d4;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+hr{
+  opacity: 0.4;
+} */

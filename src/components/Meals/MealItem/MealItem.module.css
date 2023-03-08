@@ -1,0 +1,23 @@
+.meal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.meal div {
+  display: inherit;
+  flex-direction: column;
+}
+.name {
+  margin-bottom: 0.5rem;
+}
+
+.description{
+  margin: .5rem 0;
+}
+
+.price {
+  color: #b22222e6;
+  font-weight: bold;
+  margin: 0.5rem 0 1rem;
+}

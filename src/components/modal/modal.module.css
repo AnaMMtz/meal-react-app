@@ -1,0 +1,103 @@
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wrapper{
+  background-color: white;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+  top: -23rem;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.wrapper p{
+  font-weight: bold;
+  font-size: 20px;
+}
+.first-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products{
+  display: inherit;
+  flex-direction: column;
+}
+
+.price {
+  display: inherit;
+  width: 10rem;
+  justify-content: space-between;
+}
+
+.price>p{
+  color: #8b0000d4;
+}
+
+.quantity {
+  margin: auto;
+    border: 1px solid #8080808f;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.btn-wrapper{
+  display: inherit;
+  justify-content: space-between;
+}
+
+.products-btn {
+  display: inherit;
+  border: 1px solid #8b00006b;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #8b0000d4;
+  height: 1rem;
+  border-radius: 8px;
+  margin-right: 6px;
+  align-content: center;
+  align-items: center;
+}
+
+.line{
+  border-color: rgba(139, 0, 0, 0.83);
+  width: inherit;
+}
+
+.confirm-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.confirm-btn button{
+  margin-right: 1rem;
+  display: inherit;
+  border: 1px solid #8b00006b;
+  padding: 1.5rem 2.2rem;
+  font-size: 1rem;
+  font-weight: 900;
+  color: #8b0000d4;
+  height: 1rem;
+  border-radius: 20px;
+  margin-right: 6px;
+  align-content: center;
+  align-items: center;
+}

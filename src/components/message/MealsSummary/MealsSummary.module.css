@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(11 10 10 / 97%);
+  width: 47rem;
+  align-items: center;
+  z-index: 30;
+  position: relative;
+  margin: auto;
+  top: 20rem;
+  border-radius: 14px;
+  padding: 3rem;
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+}
+
+.container>p{
+  color: #ffffffba;
+  width: inherit;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1rem;
+}
