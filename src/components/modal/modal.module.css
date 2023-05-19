@@ -5,7 +5,7 @@
   padding: 40px;
   width: 100vw;
   height: 100vh;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -19,9 +19,16 @@
   margin: auto;
   position: relative;
   z-index: 100;
-  top: -23rem;
+  top: -49rem;
+  left: -5rem;
   padding: 2rem;
   border-radius: 12px;
+  max-height: 20rem;
+  overflow: scroll;
+}
+
+.cart-items {
+  padding-left: 0;
 }
 
 .wrapper p{
@@ -34,7 +41,7 @@
   justify-content: space-between;
 }
 
-.products{
+/* .products{
   display: inherit;
   flex-direction: column;
 }
@@ -79,7 +86,7 @@
 .line{
   border-color: rgba(139, 0, 0, 0.83);
   width: inherit;
-}
+} */
 
 .confirm-btn {
   display: flex;

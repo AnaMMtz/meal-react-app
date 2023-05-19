@@ -4,7 +4,7 @@ import HeaderCartBtn from '../headerCartBtn/HeaderCartBtn';
 import image from '../../../assets/dinner.jpeg';
 
 
-const Header = ({open}) => {
+const Header = ({open, onClose}) => {
 
   return (
     <>
@@ -12,8 +12,8 @@ const Header = ({open}) => {
       <h1 className={styles.title}>ReactMeals</h1>
         <HeaderCartBtn open={open}/>
     </header>
-    <div>
-    <img id="background-img" className={styles.img} src={image} />
+    <div onClick={onClose}>
+     <img id="background-img" className={styles.img} src={image} alt='dinner image'/>
     </div>
     </>
   );

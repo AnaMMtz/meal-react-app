@@ -3,12 +3,12 @@ import Cards from 'components/Cards';
 import styles from './message.module.css';
 import MealsSummary from './MealsSummary';
 
-const Message = () => {
+const Message = ({onClose}) => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} onClick={onClose}>
     <MealsSummary/>
       <div>
-        <Cards />
+        <Cards onClick={onClose}/>
       </div>
     </div>
   )
